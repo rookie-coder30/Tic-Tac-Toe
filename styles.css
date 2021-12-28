@@ -1,0 +1,205 @@
+.heading{
+  color: #00ADB5;
+  text-align: center;
+  font-family: 'Pushster';
+  font-size: 1.5rem;
+}
+
+.game-text{
+  font-family: 'Pushster';
+  text-align: center;
+  color: #00ADB5;
+}
+
+.box{
+  width: 511px;
+  height: 511px;
+  margin: 20px auto;
+}
+
+/* Styling for the rows */
+
+.row1{
+  display: flex;
+}
+
+.row2{
+  display: flex;
+}
+
+.row3{
+  display: flex;
+}
+
+/* Styling each element */
+
+.flex-item{
+  width: 167px;
+  height: 167px;
+  border: 5px solid white;
+  text-align: center;
+}
+
+.one{
+  width: 167px;
+  height: 167px;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  text-align: center;
+}
+
+.two{
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+  width: 167px;
+  text-align: center;
+}
+
+.three{
+width: 167px;
+border-bottom: 5px solid white;
+  text-align: center;
+}
+
+.seven{
+  width: 167px;
+  height: 167px;
+  border-right: 5px solid white;
+  text-align: center;
+}
+
+.eight{
+  border-right: 5px solid white;
+  width: 167px;
+  text-align: center;
+}
+
+.nine{
+width: 167px;
+  text-align: center;
+}
+
+/* Aligning Images to Center */
+
+.img-align{
+  position: relative;
+  top: 33px;
+}
+
+/* Styling Body */
+
+body{
+  background-color: #222831;
+}
+
+/* styling hlines */
+
+.hline1{
+  border-top: 5px solid white;
+  position: absolute;
+  width: 500px;
+  bottom: 460px;
+  z-index: 1;
+}
+
+.hline2{
+  border-top: 5px solid white;
+  position: absolute;
+  width: 500px;
+  bottom: 293px;
+  z-index: 1;
+}
+
+.hline3{
+  border-top: 5px solid white;
+  position: absolute;
+  width: 500px;
+  bottom: 120px;
+  z-index: 1;
+}
+
+/* styling vlines */
+
+.vline1{
+  border-left: 5px solid white;
+  height: 501px;
+  position: absolute;
+  left: 590px;
+  z-index: 1;
+}
+
+.vline2{
+  border-left: 5px solid white;
+  height: 501px;
+  position: absolute;
+  left: 765px;
+  z-index: 1;
+}
+
+.vline3{
+  border-left: 5px solid white;
+  height: 501px;
+  position: absolute;
+  left: 940px;
+  z-index: 1;
+}
+
+/* styling dlines */
+
+.dline1{
+  border-top: 5px solid white;
+  width: 530px;
+  position: absolute;
+  transform: rotate(45deg);
+  bottom: 280px;
+  z-index: 1;
+}
+
+.dline2{
+  border-top: 5px solid white;
+  width: 530px;
+  position: absolute;
+  transform: rotate(135deg);
+  bottom: 300px;
+  z-index: 1;
+}
+
+/* styling player x score */
+
+.xscore{
+  position: absolute;
+  left: 100px;
+  top: 300px;
+  font-family: 'Pushster';
+  font-size: 1rem;
+  color: red;
+}
+/* styling player y score */
+.oscore{
+  position: absolute;
+  right: 100px;
+  top: 300px;
+  font-family: 'Pushster';
+  font-size: 1rem;
+  color: #00ADB5;
+}
+
+/* styling next round button */
+
+.nextgame{
+  background-color: #00ADB5;
+  width: 300px;
+  height: 100px;
+  font-size: 3rem;
+  font-family: 'Pushster';
+}
+
+/* styling reset button */
+
+.restartgame{
+  background-color: #00ADB5;
+  width: 300px;
+  height: 100px;
+  font-size: 3rem;
+  font-family: 'Pushster';
+}
